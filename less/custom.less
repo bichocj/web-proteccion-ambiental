@@ -143,13 +143,30 @@ ul.list-icon-bookmark {
     }
 }
 
+/*
+    BARRA DE NAVEGACIÓN
+*/
+#menu1{
+    padding-bottom: 1.5em;
+    &.pos-fixed {
+        border-bottom: 1px solid #ececec;
+    }
+    .logo {
+        top: 2px;
+
+    }
+}
 
 /*
         GRUPO PROTECCION AMBIENTAL
 */
 #empresa {
-    .feature {
+    .feature-1 {
         margin-top: 30px;
+        > img {
+            border: 1px solid #ececec;
+            border-bottom: none;
+        }
     }
 }
 
@@ -162,9 +179,10 @@ ul.list-icon-bookmark {
     ._text {
         @media (max-width: 991px) {
             margin-top: 2em;
-        }
-        h3 {
-            text-align: center;
+             h3 {
+                text-align: center;
+                text-transform: uppercase;
+            }
         }
     }
 }
